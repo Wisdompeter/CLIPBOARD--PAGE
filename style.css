@@ -1,0 +1,180 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+  font-family: myfont;
+  src: url(fonts/BaiJamjuree-Bold.ttf);
+}
+
+@font-face {
+  font-family: pnotbold;
+  src: url(fonts/BaiJamjuree-Light.ttf);
+}
+
+header {
+  background-image: url(images/bg-header-desktop.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: myfont;
+  color: hsl(210, 10%, 33%);
+}
+
+header .container {
+  margin-top: 230px;
+}
+
+.centre {
+  display: grid;
+  place-items: center;
+
+}
+
+.contain {
+  margin: 0 30px;
+}
+
+ h3 {
+  font-family: myfont;
+  color: hsl(210, 10%, 33%);
+  font-size: 45px;
+  margin: 28px 0;
+}
+
+ p {
+  color: hsl(210, 10%, 33%);
+  font-size: 23px;
+  padding-left: 10px;
+  font-family: pnotbold, sans-serif;
+  font-weight: bold;
+}
+
+span {
+  padding-left: 60px;
+}
+
+
+button {
+  font-size: 18px;
+  font-family: myfont;
+  color: white;
+  margin-top: 60px;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  margin-left: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(172, 202, 224);
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.inside {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
+
+p {
+  font-size: 17px;
+}
+
+.showcase-two {
+  margin-top: 200px;
+  display: flex;
+justify-content: center;
+}
+
+.showcase-two img {
+  margin: 0 20px;
+}
+
+.content h3 {
+  margin-bottom: 0;
+}
+
+.content p {
+  line-height: 1.6;
+}
+
+.showcase-three {
+  margin-top: 170px;
+  text-align: center;
+}
+
+
+.grid h3 {
+  font-size: 30px; 
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin: 120px 110px;
+}
+
+.grid-two { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0 45px;
+}
+
+
+
+.showcase-six {
+  text-align: center;
+}
+
+footer {
+  background-color: hsl(213, 16%, 86%);
+  margin-top: 100px;
+  width: 100%;
+  height: 250px;
+}
+
+.footer-place {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-place div {
+  flex: 1;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.footer-place p {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.footer-icon img {
+  margin-left: 25px;
+}

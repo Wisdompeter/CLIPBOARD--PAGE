@@ -1,0 +1,65 @@
+
+
+@media (max-width: 800px) {
+
+
+  header {
+    background-image: url(images/bg-header-mobile.png);
+
+  }
+
+  .clipboard {
+    text-align: center;
+  
+  }
+
+  .showcase-two {
+    flex-direction: column;
+    margin: auto;
+    margin: 190px 0;
+
+  } 
+
+  .showcase-two img {
+max-width: 100%;
+   margin: 0;
+  }
+
+
+  .showcase-three img {
+  max-width: 100%;
+  }
+
+  .showcase-four .grid, .showcase-five {
+    margin: 120px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .showcase-five img {
+    margin: 50px ;
+  }
+
+  footer {
+ height: 100%;
+ padding-bottom: 50px;
+  }
+
+  .footer-place {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  .showcase-two {
+    margin-left: 20px;
+  }
+
+  .showcase-two img {
+    width: 400px;
+  }
+  .showcase-three img {
+    width: 400px;
+  }
+}
